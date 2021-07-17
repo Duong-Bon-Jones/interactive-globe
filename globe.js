@@ -1,6 +1,7 @@
 // Dependencies: three.js, gsap. And 1 plugin to import .glsl to your project, e.g. glslify, ...
-import * as THREE from "./node_modules/three/build/three";
-import gsap from "./node_modules/gsap/dist/gsap";
+// Install them, set up the plugin so you're able to import .glsl like the Shaders section below.
+import * as THREE from "three";
+import gsap from "gsap";
 
 // Shaders
 import vertexShader from "./shaders/vertex.glsl";
